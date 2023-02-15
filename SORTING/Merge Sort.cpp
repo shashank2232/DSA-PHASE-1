@@ -51,6 +51,7 @@ void mergeSort(int arr[],int start,int end)
     int mid=(start+end)/2;         //dividing array in 2 parts
     mergeSort(arr,start,mid);      
     mergeSort(arr,mid+1,end);
+    // now the array is divided till end , merge fn() will merge it in a sorted-order
     merge(arr,start,end);
 }
 
