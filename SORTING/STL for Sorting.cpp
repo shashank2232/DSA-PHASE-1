@@ -11,7 +11,7 @@ int main() {
     {
         cout<<x<<" ";
     }cout<<endl;
-    reverse(arr,arr+n);
+    reverse(arr,arr+n);         // will sort array reversely
      for(int x:arr)
     {
         cout<<x<<" ";
