@@ -36,6 +36,7 @@ void merge(int arr[],int start,int end)
         j++;
         k++;
     }
+    // here our output array has the sorted array answer, just put it inside our array arr
     for(int i=0;i<=end;i++)
     {
         arr[i]=output[i];
